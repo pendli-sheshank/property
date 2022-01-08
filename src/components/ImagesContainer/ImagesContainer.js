@@ -22,7 +22,7 @@ const ImagesContainer = () => {
         {data.map((i, index) => (
           <img
             key={index}
-            style={{ border: image === i ? "3px solid black" : "" }}
+            style={{ border: image === i ? "2px solid black" : "" }}
             src={i}
             onClick={() => selectedImage(i)}
             alt={i}
@@ -33,7 +33,7 @@ const ImagesContainer = () => {
       <div className="right-image-container">
         <img className="main-image card" src={image} alt="view" />
       </div>
-      <div className="content-container">
+      <div className="content-container card p-3">
         <h1>Meeting Room</h1>
         <p>Avalible</p>
         <div className="day-container">
