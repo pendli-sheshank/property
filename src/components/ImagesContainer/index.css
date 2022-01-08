@@ -1,0 +1,87 @@
+.images-container {
+  display: flex;
+  width: 100%;
+}
+.main-image {
+  display: flex;
+  flex-direction: column;
+}
+.side-image {
+  width: 150px;
+  height: 95px;
+  margin-bottom: 5px;
+}
+.left-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: 40px;
+}
+.right-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.main-image {
+  width: 700px;
+  height: 500px;
+}
+.content-container {
+  margin-left: 30px;
+}
+.booking {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.day-container {
+  display: flex;
+  margin-top: 10px;
+}
+.day {
+  display: inline;
+  padding: 5px;
+}
+.input {
+  margin-top: 20px;
+}
+.label {
+  margin-right: 10px;
+}
+span {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+button {
+  background-color: orange;
+  border: none;
+  width: 100px;
+  height: 33px;
+  border-radius: 3px;
+}
+
+p {
+  color: greenyellow;
+}
+.white {
+  background: white;
+  font-size: 38px;
+  color: gray;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+  margin: 5px;
+  padding: 8px;
+}
+.purple {
+  background: purple;
+  font-size: 38px;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid gainsboro;
+  margin: 5px;
+  padding: 8px;
+}
